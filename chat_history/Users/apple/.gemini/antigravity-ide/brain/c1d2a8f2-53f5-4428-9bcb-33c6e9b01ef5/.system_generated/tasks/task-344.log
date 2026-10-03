@@ -1,0 +1,55 @@
+Analyzing bsnl_survey_flutter...                                
+
+warning • Unused import: 'package:shared_preferences/shared_preferences.dart' • lib/constants/app_config.dart:1:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/constants/app_config.dart:2:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/features/attendance/view/attendance_screen.dart:8:8 • unused_import
+warning • Unused import: 'package:survey/providers/auth_provider.dart' • lib/features/attendance/widgets/attendance_card.dart:15:8 • unused_import
+warning • Unused import: 'package:package_info_plus/package_info_plus.dart' • lib/features/auth/view/splash_screen.dart:4:8 • unused_import
+warning • Unused import: 'package:survey/repositories/my_team_repository.dart' • lib/features/incidents/view/incidents_screen.dart:22:8 • unused_import
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_installation_room_screen.dart:253:11 • sort_child_properties_last
+   info • The private field _appliancesStatus could be 'final' • lib/features/pop/view/forms/old_gp/pop_old_gp_physical_condition_screen.dart:53:16 • prefer_final_fields
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_upload_doc_screen.dart:106:25 • sort_child_properties_last
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_upload_doc_screen.dart:126:27 • sort_child_properties_last
+warning • Unused import: 'package:survey/models/image_data.dart' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:18:8 • unused_import
+  error • The getter 'accessToTheTerrace' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:176:33 • undefined_getter
+  error • The getter 'terraceTemporary' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:181:43 • undefined_getter
+  error • The getter 'terracePermanent' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:182:43 • undefined_getter
+  error • The getter 'accessImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:186:33 • undefined_getter
+  error • The getter 'logoVisibility' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:195:33 • undefined_getter
+  error • The getter 'logoVisible' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:200:43 • undefined_getter
+  error • The getter 'logoNotVisible' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:201:43 • undefined_getter
+  error • The getter 'logoImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:205:33 • undefined_getter
+  error • The getter 'makeImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:221:33 • undefined_getter
+  error • The getter 'enterModel' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:233:35 • undefined_getter
+  error • The getter 'modelImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:237:33 • undefined_getter
+  error • The getter 'serialNoImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:253:33 • undefined_getter
+  error • The getter 'capacity' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:262:33 • undefined_getter
+  error • The getter 'capacity' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:265:35 • undefined_getter
+  error • The getter 'roofCondition' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:270:35 • undefined_getter
+  error • The getter 'roofConditionImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:280:35 • undefined_getter
+  error • The getter 'roofObstacle' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:289:35 • undefined_getter
+  error • The getter 'roofObstacleImages' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:297:35 • undefined_getter
+  error • The getter 'earthPit' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:322:27 • undefined_getter
+  error • The getter 'earthPitsAvailability' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:326:31 • undefined_getter
+  error • The getter 'condition' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:357:33 • undefined_getter
+  error • The getter 'earthNeutralValue' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:367:33 • undefined_getter
+  error • The getter 'earthNeutralValue' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:370:35 • undefined_getter
+  error • The getter 'earthWireAvail' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:375:33 • undefined_getter
+  error • The getter 'earthWireGuage' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:384:35 • undefined_getter
+  error • The getter 'enterValue' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:401:37 • undefined_getter
+  error • The named parameter 'controller' is required, but there's no corresponding argument • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:402:24 • missing_required_argument
+  error • The named parameter 'initialValue' isn't defined • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:403:19 • undefined_named_parameter
+  error • The getter 'enterValue' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_power_screen.dart:404:39 • undefined_getter
+warning • Unused import: 'package:survey/utilities/extensions/textstyle_extension.dart' • lib/features/vehicle/view/vehicle_form_screen.dart:24:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_config.dart' • lib/initializer/main_initialization.dart:9:8 • unused_import
+warning • Unused import: 'package:survey/models/auth/vehicle.dart' • lib/providers/auth_provider.dart:4:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_config.dart' • lib/repositories/attendance_repository.dart:4:8 • unused_import
+warning • Dead code • lib/repositories/attendance_repository.dart:29:41 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/repositories/attendance_repository.dart:30:9 • dead_null_aware_expression
+warning • Unused import: 'package:survey/models/gp/gp_map_member.dart' • lib/repositories/incident_repository.dart:3:8 • unused_import
+warning • Unused import: 'dart:math' • lib/services/location/background_location_service.dart:2:8 • unused_import
+warning • Unused import: 'package:flutter_local_notifications/flutter_local_notifications.dart' • lib/services/location/background_location_service.dart:7:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_strings.dart' • lib/services/location/background_location_service.dart:10:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/services/location/background_location_service.dart:12:8 • unused_import
+
+51 issues found. (ran in 35.3s)

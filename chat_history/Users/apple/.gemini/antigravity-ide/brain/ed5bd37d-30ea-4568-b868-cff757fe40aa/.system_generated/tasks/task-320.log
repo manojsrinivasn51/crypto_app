@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T12:27:58+05:30
+Prompt: Wait for final flutter analyze verification after theme change
+
+[2026-07-16T12:27:53+05:30] Still waiting. Remaining time: 5s
+[2026-07-16T12:27:58+05:30] Timer fired.

@@ -1,0 +1,9 @@
+Analyzing 4 items...                                            
+
+  error • The getter 'keyInchargeSection' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/bhq/pop_bhq_information_sheet_screen.dart:148:27 • undefined_getter
+  error • The getter 'addBsnlRepresentative' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/bhq/pop_bhq_information_sheet_screen.dart:239:31 • undefined_getter
+  error • The getter 'popType' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_building_screen.dart:162:27 • undefined_getter
+  error • The getter 'popType' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_building_screen.dart:166:31 • undefined_getter
+  error • The getter 'popSubType' isn't defined for the type 'AppLocalizations' • lib/features/pop/view/forms/ont/pop_ont_building_screen.dart:180:33 • undefined_getter
+
+5 issues found. (ran in 14.1s)

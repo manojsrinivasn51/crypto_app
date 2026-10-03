@@ -1,0 +1,24 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s freezed on 156 inputs; lib/constants/backend_urls.dart
+  0s freezed on 156 inputs: 1 skipped; lib/constants/constants.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  4s freezed on 156 inputs: 36 skipped, 1 output; spent 3s analyzing; lib/models/salary_model.dart
+  5s freezed on 156 inputs: 151 skipped, 1 output, 4 no-op; spent 3s analyzing
+  0s json_serializable on 312 inputs; lib/constants/backend_urls.dart
+  41s json_serializable on 312 inputs: 14 skipped, 1 no-op; spent 32s analyzing, 7s resolving; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  58s json_serializable on 312 inputs: 27 skipped, 6 no-op; spent 46s analyzing, 9s resolving, 2s reading; lib/main.freezed.dart
+  59s json_serializable on 312 inputs: 130 skipped, 1 output, 12 no-op; spent 47s analyzing, 9s resolving, 2s reading; lib/services/route/app_router.freezed.dart
+  61s json_serializable on 312 inputs: 162 skipped, 1 output, 18 no-op; spent 48s analyzing, 9s resolving, 2s reading, 1s building; lib/view/home/widgets/attendance_summary_card.freezed.dart
+  62s json_serializable on 312 inputs: 201 skipped, 1 output, 23 no-op; spent 49s analyzing, 9s resolving, 2s reading, 1s building; lib/view/profile/screens/my_profile_screen.freezed.dart
+  63s json_serializable on 312 inputs: 222 skipped, 1 output, 28 no-op; spent 50s analyzing, 9s resolving, 2s reading, 1s building; lib/view/queries/screens/queries_screen.freezed.dart
+  63s json_serializable on 312 inputs: 281 skipped, 1 output, 30 no-op; spent 50s analyzing, 9s resolving, 2s reading, 1s building
+  0s source_gen:combining_builder on 312 inputs; lib/constants/backend_urls.dart
+  1s source_gen:combining_builder on 312 inputs: 272 skipped, 1 output; lib/widgets/loading/premium_shimmer.freezed.dart
+  1s source_gen:combining_builder on 312 inputs: 311 skipped, 1 output
+  Running the post build.
+  Writing the asset graph.
+  Built with build_runner in 74s; wrote 3 outputs.

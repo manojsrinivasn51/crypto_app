@@ -1,0 +1,38 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:573:8 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:709:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:711:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:713:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:930:25 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:936:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:937:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:938:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:942:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:991:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1070:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1073:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1076:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1079:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1083:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1127:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1130:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1133:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1136:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1140:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1188:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1191:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1194:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1197:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1201:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1312:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1315:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1318:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1321:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1325:25 • curly_braces_in_flow_control_structures
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2394:7 • unused_element
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2510:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2596:10 • unused_element_parameter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/authentication/screens/self_registration_screen.dart:2727:40 • deprecated_member_use
+
+34 issues found. (ran in 8.0s)

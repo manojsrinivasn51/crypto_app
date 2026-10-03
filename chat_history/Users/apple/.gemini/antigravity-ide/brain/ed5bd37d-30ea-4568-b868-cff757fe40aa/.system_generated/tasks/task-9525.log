@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-30T13:20:07+05:30
+Prompt: Check the results of the dart analyze command.
+
+[2026-07-30T13:20:05+05:30] Timer cancelled: agent received a message during wait.

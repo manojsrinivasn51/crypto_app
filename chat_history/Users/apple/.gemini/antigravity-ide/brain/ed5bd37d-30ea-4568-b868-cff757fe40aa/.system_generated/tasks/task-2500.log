@@ -1,0 +1,35 @@
+Analyzing 2 items...                                            
+
+warning • The value of the local variable 'bgColor' isn't used • lib/services/route/app_router.dart:124:17 • unused_local_variable
+warning • The value of the local variable 'isForceChangePassword' isn't used • lib/services/route/app_router.dart:249:13 • unused_local_variable
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:287:52 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:288:51 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:289:54 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:290:65 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:302:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:306:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:310:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:314:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:325:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:329:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:333:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:337:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:350:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:354:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:367:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:371:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:377:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:381:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:392:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:405:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:414:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:418:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:422:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:432:62 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:435:60 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:436:65 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:437:65 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:440:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:444:22 • unnecessary_underscores
+
+31 issues found. (ran in 7.0s)

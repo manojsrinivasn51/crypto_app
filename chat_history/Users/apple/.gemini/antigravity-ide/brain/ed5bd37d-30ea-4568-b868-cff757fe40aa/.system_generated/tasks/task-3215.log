@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-21T14:53:36+05:30
+Prompt: Wait for flutter analyze to complete
+
+[2026-07-21T14:52:36+05:30] Timer cancelled: agent received a message during wait.

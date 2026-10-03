@@ -1,0 +1,56 @@
+/Users/apple/Desktop/veremax_hrm_flutter/fix_build_s4.py:11: SyntaxWarning: invalid escape sequence '\s'
+  new_build_s4 = """  @override
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:574:8 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:700:21 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:702:21 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:704:21 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:768:11 • missing_identifier
+  error • Expected to find ')' • lib/view/authentication/screens/self_registration_screen.dart:768:11 • expected_token
+  error • Expected to find ';' • lib/view/authentication/screens/self_registration_screen.dart:770:7 • expected_token
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:770:8 • dead_code
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:770:8 • missing_identifier
+  error • Expected to find ';' • lib/view/authentication/screens/self_registration_screen.dart:770:8 • expected_token
+  error • Unexpected text ';' • lib/view/authentication/screens/self_registration_screen.dart:770:8 • unexpected_token
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:771:5 • missing_identifier
+  error • Unexpected text ';' • lib/view/authentication/screens/self_registration_screen.dart:771:5 • unexpected_token
+   info • Unnecessary empty statement • lib/view/authentication/screens/self_registration_screen.dart:771:6 • empty_statements
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:890:25 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:896:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:897:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:898:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:902:25 • curly_braces_in_flow_control_structures
+  error • Undefined name '_aadhaarCtrl' • lib/view/authentication/screens/self_registration_screen.dart:913:33 • undefined_identifier
+  error • Undefined name '_aadhaarCtrl' • lib/view/authentication/screens/self_registration_screen.dart:921:63 • undefined_identifier
+  error • The named parameter 'textCapitalization' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:927:21 • undefined_named_parameter
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:947:25 • curly_braces_in_flow_control_structures
+  error • The getter 'bodySm' isn't defined for the type 'AppTypography' • lib/view/authentication/screens/self_registration_screen.dart:1106:44 • undefined_getter
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1204:5 • undefined_identifier
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1205:5 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1206:5 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1207:5 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1208:5 • undefined_identifier
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1232:31 • undefined_identifier
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1239:69 • undefined_identifier
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1240:19 • undefined_named_parameter
+warning • The member 'notifyListeners' can only be used within 'package:flutter/src/foundation/change_notifier.dart' or a test • lib/view/authentication/screens/self_registration_screen.dart:1242:23 • invalid_use_of_visible_for_testing_member
+warning • The member 'notifyListeners' can only be used within instance members of subclasses of 'ChangeNotifier' • lib/view/authentication/screens/self_registration_screen.dart:1242:23 • invalid_use_of_protected_member
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1252:35 • undefined_identifier
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1254:72 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1259:35 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1261:79 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1269:35 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1276:81 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1281:35 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1288:82 • undefined_identifier
+  error • Undefined name '_accNumCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1352:33 • undefined_identifier
+  error • Undefined name '_accNumCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1360:64 • undefined_identifier
+  error • The named parameter 'textCapitalization' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1366:21 • undefined_named_parameter
+  error • The named parameter 'textCapitalization' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1418:21 • undefined_named_parameter
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1627:19 • undefined_named_parameter
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2241:7 • unused_element
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2357:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2443:10 • unused_element_parameter
+
+50 issues found. (ran in 5.9s)

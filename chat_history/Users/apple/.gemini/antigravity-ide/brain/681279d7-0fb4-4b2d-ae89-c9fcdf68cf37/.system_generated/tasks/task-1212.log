@@ -1,0 +1,11 @@
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//CHANGELOG.md:157:    - **cropImage()**: move `cropStyle` and `aspectRatioPresets` into `AndroidUiSettings` and `IOUiSettings` for sake of clean and clarity.
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//CHANGELOG.md:165:      cropStyle: CropStyle.circle,
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//CHANGELOG.md:188:          cropStyle: CropStyle.circle,
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//CHANGELOG.md:196:          cropStyle: CropStyle.circle,
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//CHANGELOG.md:469:* **BREAKING CHANGE**: `ratioX` and `ratioY` are replaced by `aspectRatio`, `circleShape` is replaced by `cropStyle`, removed `toolbarTitle` and `toolbarColor` (these properties are moved into `AndroidUiSettings`)
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//ios/image_cropper/Sources/image_cropper/FLTImageCropperPlugin.m:34:    NSString *cropStyle = call.arguments[@"ios.crop_style"];
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//ios/image_cropper/Sources/image_cropper/FLTImageCropperPlugin.m:44:    if ([@"circle" isEqualToString:cropStyle]) {
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//README.md:137:| `cropStyle`                 | controls the style of crop bounds, it can be rectangle or circle style (default is `CropStyle.rectangle`). | CropStyle                       |
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//README.md:171:| `cropStyle`                           | controls the style of crop bounds, it can be rectangle or circle style (default is `CropStyle.rectangle`).                                                                                                                                                                                                                                  | CropStyle                       |
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//android/src/main/java/vn/hunghd/flutter/plugins/imagecropper/ImageCropperDelegate.java:50:        String cropStyle = call.argument("android.crop_style");
+/Users/apple/.pub-cache/hosted/pub.dev/image_cropper-12.2.1//android/src/main/java/vn/hunghd/flutter/plugins/imagecropper/ImageCropperDelegate.java:72:        if ("circle".equals(cropStyle)) {

@@ -1,0 +1,96 @@
+Analyzing employee_chat...                                      
+
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/data/mock_chat_data.dart:1:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/models/chat_models.dart' • lib/features/employee_chat/data/mock_chat_data.dart:1:8 • uri_does_not_exist
+  error • The name 'Conversation' isn't a type, so it can't be used as a type argument • lib/features/employee_chat/data/mock_chat_data.dart:5:15 • non_type_as_type_argument
+  error • The method 'Conversation' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:6:5 • undefined_method
+  error • The method 'Conversation' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:16:5 • undefined_method
+  error • The method 'Conversation' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:26:5 • undefined_method
+  error • The name 'ChatMessage' isn't a type, so it can't be used as a type argument • lib/features/employee_chat/data/mock_chat_data.dart:39:15 • non_type_as_type_argument
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:40:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:46:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:48:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:54:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:56:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:62:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:64:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:70:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:72:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:78:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:80:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:86:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:88:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:94:15 • undefined_identifier
+  error • The method 'ChatMessage' isn't defined for the type 'MockChatData' • lib/features/employee_chat/data/mock_chat_data.dart:96:5 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/data/mock_chat_data.dart:102:15 • undefined_identifier
+  error • The name 'ChatMessage' isn't a type, so it can't be used as a type argument • lib/features/employee_chat/data/mock_chat_data.dart:106:15 • non_type_as_type_argument
+  error • The property 'conversationId' can't be unconditionally accessed because the receiver can be 'null' • lib/features/employee_chat/data/mock_chat_data.dart:107:42 • unchecked_use_of_nullable_value
+  error • The property 'timestamp' can't be unconditionally accessed because the receiver can be 'null' • lib/features/employee_chat/data/mock_chat_data.dart:108:27 • unchecked_use_of_nullable_value
+  error • The property 'timestamp' can't be unconditionally accessed because the receiver can be 'null' • lib/features/employee_chat/data/mock_chat_data.dart:108:49 • unchecked_use_of_nullable_value
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_list_screen.dart:2:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/data/mock_chat_data.dart' • lib/features/employee_chat/screens/chat_list_screen.dart:2:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_list_screen.dart:3:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/models/chat_models.dart' • lib/features/employee_chat/screens/chat_list_screen.dart:3:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_list_screen.dart:4:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/screens/chat_screen.dart' • lib/features/employee_chat/screens/chat_list_screen.dart:4:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_list_screen.dart:5:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/widgets/conversation_tile.dart' • lib/features/employee_chat/screens/chat_list_screen.dart:5:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_list_screen.dart:6:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/theme/palette.dart' • lib/features/employee_chat/screens/chat_list_screen.dart:6:8 • uri_does_not_exist
+  error • The name 'Conversation' isn't a type, so it can't be used as a type argument • lib/features/employee_chat/screens/chat_list_screen.dart:17:8 • non_type_as_type_argument
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_list_screen.dart:22:30 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_list_screen.dart:36:34 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_list_screen.dart:38:34 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/features/employee_chat/screens/chat_list_screen.dart:48:20 • undefined_identifier
+  error • The method 'ConversationTile' isn't defined for the type '_ChatListScreenState' • lib/features/employee_chat/screens/chat_list_screen.dart:131:30 • undefined_method
+  error • The method 'ChatScreen' isn't defined for the type '_ChatListScreenState' • lib/features/employee_chat/screens/chat_list_screen.dart:137:53 • undefined_method
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_screen.dart:2:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/data/mock_chat_data.dart' • lib/features/employee_chat/screens/chat_screen.dart:2:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_screen.dart:3:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/models/chat_models.dart' • lib/features/employee_chat/screens/chat_screen.dart:3:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_screen.dart:4:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/widgets/chat_input_bar.dart' • lib/features/employee_chat/screens/chat_screen.dart:4:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_screen.dart:5:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/widgets/message_bubble.dart' • lib/features/employee_chat/screens/chat_screen.dart:5:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/screens/chat_screen.dart:6:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/theme/palette.dart' • lib/features/employee_chat/screens/chat_screen.dart:6:8 • uri_does_not_exist
+  error • Undefined class 'Conversation' • lib/features/employee_chat/screens/chat_screen.dart:9:9 • undefined_class
+  error • The name 'ChatMessage' isn't a type, so it can't be used as a type argument • lib/features/employee_chat/screens/chat_screen.dart:21:13 • non_type_as_type_argument
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:31:17 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:36:21 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:39:9 • undefined_identifier
+  error • The method 'Conversation' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:39:45 • undefined_method
+  error • The method 'ChatMessage' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:64:24 • undefined_method
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/screens/chat_screen.dart:70:15 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:75:7 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:79:21 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:81:29 • undefined_identifier
+  error • Undefined name 'MockChatData' • lib/features/employee_chat/screens/chat_screen.dart:82:9 • undefined_identifier
+  error • The method 'Conversation' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:82:45 • undefined_method
+  error • Undefined name 'AppColors' • lib/features/employee_chat/screens/chat_screen.dart:117:20 • undefined_identifier
+  error • The method 'MessageBubble' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:205:28 • undefined_method
+  error • The method 'MessageBubble' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:209:24 • undefined_method
+  error • The method 'ChatInputBar' isn't defined for the type '_ChatScreenState' • lib/features/employee_chat/screens/chat_screen.dart:213:11 • undefined_method
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/widgets/chat_input_bar.dart:2:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/theme/palette.dart' • lib/features/employee_chat/widgets/chat_input_bar.dart:2:8 • uri_does_not_exist
+  error • Undefined name 'AppColors' • lib/features/employee_chat/widgets/chat_input_bar.dart:46:20 • undefined_identifier
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/widgets/conversation_tile.dart:2:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/models/chat_models.dart' • lib/features/employee_chat/widgets/conversation_tile.dart:2:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/widgets/conversation_tile.dart:3:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/theme/palette.dart' • lib/features/employee_chat/widgets/conversation_tile.dart:3:8 • uri_does_not_exist
+  error • Undefined class 'Conversation' • lib/features/employee_chat/widgets/conversation_tile.dart:6:9 • undefined_class
+  error • Undefined name 'AppColors' • lib/features/employee_chat/widgets/conversation_tile.dart:31:20 • undefined_identifier
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/widgets/message_bubble.dart:2:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/features/employee_chat/models/chat_models.dart' • lib/features/employee_chat/widgets/message_bubble.dart:2:8 • uri_does_not_exist
+   info • The imported package 'veremax_hrm_flutter' isn't a dependency of the importing package • lib/features/employee_chat/widgets/message_bubble.dart:3:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:veremax_hrm_flutter/theme/palette.dart' • lib/features/employee_chat/widgets/message_bubble.dart:3:8 • uri_does_not_exist
+  error • Undefined class 'ChatMessage' • lib/features/employee_chat/widgets/message_bubble.dart:6:9 • undefined_class
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/widgets/message_bubble.dart:19:12 • undefined_identifier
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/widgets/message_bubble.dart:21:12 • undefined_identifier
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/widgets/message_bubble.dart:23:12 • undefined_identifier
+  error • Undefined class 'AppColors' • lib/features/employee_chat/widgets/message_bubble.dart:29:25 • undefined_class
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/widgets/message_bubble.dart:30:27 • undefined_identifier
+  error • Undefined name 'AppColors' • lib/features/employee_chat/widgets/message_bubble.dart:38:20 • undefined_identifier
+  error • Undefined name 'MessageStatus' • lib/features/employee_chat/widgets/message_bubble.dart:98:50 • undefined_identifier
+
+92 issues found. (ran in 3.7s)

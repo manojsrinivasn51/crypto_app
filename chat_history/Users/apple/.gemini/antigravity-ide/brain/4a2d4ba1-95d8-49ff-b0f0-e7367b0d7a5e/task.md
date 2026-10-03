@@ -1,0 +1,5 @@
+- `[/]` Create models (`lib/features/employee_chat/models/chat_models.dart`)
+- `[x]` Create mock data (`lib/features/employee_chat/data/mock_chat_data.dart`)
+- `[x]` Create widgets (`conversation_tile.dart`, `message_bubble.dart`, `chat_input_bar.dart`)
+- `[x]` Create chat list screen (`lib/features/employee_chat/screens/chat_list_screen.dart`)
+- `[x]` Create chat screen (`lib/features/employee_chat/screens/chat_screen.dart`)

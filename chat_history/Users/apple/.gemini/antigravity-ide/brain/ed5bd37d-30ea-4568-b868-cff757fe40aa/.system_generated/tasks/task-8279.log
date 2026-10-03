@@ -1,0 +1,18 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:574:8 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:705:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:707:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:709:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:890:25 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:896:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:897:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:898:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:902:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:947:25 • curly_braces_in_flow_control_structures
+  error • Undefined name '_accCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1215:5 • undefined_identifier
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2250:7 • unused_element
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2366:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2452:10 • unused_element_parameter
+
+14 issues found. (ran in 6.0s)

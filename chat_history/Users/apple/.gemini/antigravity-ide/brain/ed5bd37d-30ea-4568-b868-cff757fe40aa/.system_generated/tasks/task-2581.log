@@ -1,0 +1,12 @@
+Analyzing 2 items...                                            
+
+  error • The named parameter 'loadMore' isn't defined • lib/view/payment_claims/screens/payment_claims_screen.dart:48:49 • undefined_named_parameter
+  error • The getter 'isLoadingMore' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/payment_claims_screen.dart:210:46 • undefined_getter
+  error • The method 'fetchPendingApprovals' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:38:44 • undefined_method
+  error • The method 'fetchPendingApprovals' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:70:30 • undefined_method
+  error • The method 'fetchPendingApprovals' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:105:20 • undefined_method
+  error • The getter 'approvalClaims' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:115:40 • undefined_getter
+  error • The getter 'approvalClaims' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:119:29 • undefined_getter
+  error • The getter 'isLoadingApprovers' isn't defined for the type 'PaymentClaimProvider' • lib/view/payment_claims/screens/submit_payment_claim_screen.dart:330:30 • undefined_getter
+
+8 issues found. (ran in 5.7s)

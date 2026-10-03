@@ -1,0 +1,12 @@
+Analyzing self_registration_screen.dart...                      
+
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:674:36 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:675:43 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:676:42 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:863:36 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:863:74 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:863:89 • dead_code
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:1893:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:1979:10 • unused_element_parameter
+
+8 issues found. (ran in 6.7s)

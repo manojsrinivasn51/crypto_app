@@ -1,0 +1,9 @@
+- [x] Fix the two `filled` getter bugs in `pop_survey_shots.dart`.
+- [x] Fix duplicate `AppPermissionProvider` registration in `providers.dart`.
+- [x] Implement `pop_ont_building_screen.dart`.
+- [x] Implement `pop_bhq_information_sheet_screen.dart`.
+- [x] Implement `pop_ont_information_sheet_screen.dart`.
+- [x] Implement `pop_information_sheet_screen.dart` (shared for New GP & OLT).
+- [x] Implement `pop_ont_power_screen.dart` (with conditional BHQ handling).
+- [x] Add missing l10n keys to English, Hindi, and Kannada ARB files and compile.
+- [x] Run `flutter analyze` to verify code correctness.

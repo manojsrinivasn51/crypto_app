@@ -1,0 +1,39 @@
+Because l10n.yaml exists, the options defined there will be used instead.
+To use the command line arguments, delete the l10n.yaml file in the Flutter project.
+
+
+"hi": 31 untranslated message(s).
+"kn": 31 untranslated message(s).
+To see a detailed report, use the untranslated-messages-file 
+option in the l10n.yaml file:
+untranslated-messages-file: desiredFileName.txt
+<other option>: <other selection> 
+
+
+This will generate a JSON format file containing all messages that 
+need to be translated.
+Analyzing bsnl_survey_flutter...                                
+
+warning • Unused import: 'package:shared_preferences/shared_preferences.dart' • lib/constants/app_config.dart:1:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/constants/app_config.dart:2:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/features/attendance/view/attendance_screen.dart:8:8 • unused_import
+warning • Unused import: 'package:survey/providers/auth_provider.dart' • lib/features/attendance/widgets/attendance_card.dart:15:8 • unused_import
+warning • Unused import: 'package:package_info_plus/package_info_plus.dart' • lib/features/auth/view/splash_screen.dart:4:8 • unused_import
+warning • Unused import: 'package:survey/repositories/my_team_repository.dart' • lib/features/incidents/view/incidents_screen.dart:22:8 • unused_import
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_installation_room_screen.dart:253:11 • sort_child_properties_last
+   info • The private field _appliancesStatus could be 'final' • lib/features/pop/view/forms/old_gp/pop_old_gp_physical_condition_screen.dart:53:16 • prefer_final_fields
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_upload_doc_screen.dart:106:25 • sort_child_properties_last
+   info • The 'child' argument should be last in widget constructor invocations • lib/features/pop/view/forms/old_gp/pop_old_gp_upload_doc_screen.dart:126:27 • sort_child_properties_last
+warning • Unused import: 'package:survey/utilities/extensions/textstyle_extension.dart' • lib/features/vehicle/view/vehicle_form_screen.dart:24:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_config.dart' • lib/initializer/main_initialization.dart:9:8 • unused_import
+warning • Unused import: 'package:survey/models/auth/vehicle.dart' • lib/providers/auth_provider.dart:4:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_config.dart' • lib/repositories/attendance_repository.dart:4:8 • unused_import
+warning • Dead code • lib/repositories/attendance_repository.dart:29:41 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/repositories/attendance_repository.dart:30:9 • dead_null_aware_expression
+warning • Unused import: 'package:survey/models/gp/gp_map_member.dart' • lib/repositories/incident_repository.dart:3:8 • unused_import
+warning • Unused import: 'dart:math' • lib/services/location/background_location_service.dart:2:8 • unused_import
+warning • Unused import: 'package:flutter_local_notifications/flutter_local_notifications.dart' • lib/services/location/background_location_service.dart:7:8 • unused_import
+warning • Unused import: 'package:survey/constants/app_strings.dart' • lib/services/location/background_location_service.dart:10:8 • unused_import
+warning • Unused import: 'package:survey/constants/keys.dart' • lib/services/location/background_location_service.dart:12:8 • unused_import
+
+21 issues found. (ran in 32.6s)

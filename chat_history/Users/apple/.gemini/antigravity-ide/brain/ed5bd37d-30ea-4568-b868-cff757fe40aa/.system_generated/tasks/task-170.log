@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T11:47:21+05:30
+Prompt: Wait for build_runner to compile models
+
+[2026-07-16T11:47:12+05:30] Timer cancelled: agent received a message during wait.

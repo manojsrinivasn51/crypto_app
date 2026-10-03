@@ -1,0 +1,23 @@
+Analyzing screens...                                            
+
+warning • Unused import: 'package:project/providers/payment_claim_provider.dart' • lib/view/payment_claims/screens/payment_claim_detail_screen.dart:6:8 • unused_import
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claim_detail_screen.dart:28:37 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claim_detail_screen.dart:72:35 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claim_detail_screen.dart:116:36 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claims_screen.dart:38:20 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claims_screen.dart:47:17 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claims_screen.dart:61:36 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claims_screen.dart:141:35 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/payment_claims_screen.dart:174:32 • non_type_as_type_argument
+  error • Undefined class 'PaymentClaimProvider' • lib/view/payment_claims/screens/payment_claims_screen.dart:185:39 • undefined_class
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/pending_approvals_screen.dart:38:20 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/pending_approvals_screen.dart:45:36 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/pending_approvals_screen.dart:69:35 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/pending_approvals_screen.dart:104:25 • non_type_as_type_argument
+  error • Undefined class 'PaymentClaimProvider' • lib/view/payment_claims/screens/pending_approvals_screen.dart:114:39 • undefined_class
+warning • Unused import: 'package:project/providers/payment_claim_provider.dart' • lib/view/payment_claims/screens/submit_payment_claim_screen.dart:8:8 • unused_import
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/submit_payment_claim_screen.dart:41:20 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/submit_payment_claim_screen.dart:111:35 • non_type_as_type_argument
+  error • The name 'PaymentClaimProvider' isn't a type, so it can't be used as a type argument • lib/view/payment_claims/screens/submit_payment_claim_screen.dart:178:36 • non_type_as_type_argument
+
+19 issues found. (ran in 4.5s)

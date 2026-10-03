@@ -1,0 +1,10 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • Unused import: 'package:hrms/widgets/responsive_grid_row.dart' • lib/view/authentication/screens/self_registration_screen.dart:14:8 • unused_import
+  error • The getter 'displaySm' isn't defined for the type 'AppTypography' • lib/view/authentication/screens/self_registration_screen.dart:207:38 • undefined_getter
+  error • Expected to find ')' • lib/view/authentication/screens/self_registration_screen.dart:293:6 • expected_token
+  error • The getter 'titleSm' isn't defined for the type 'AppTypography' • lib/view/authentication/screens/self_registration_screen.dart:536:48 • undefined_getter
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:977:34 • unnecessary_underscores
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1172:27 • curly_braces_in_flow_control_structures
+
+6 issues found. (ran in 6.6s)

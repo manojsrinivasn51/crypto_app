@@ -1,0 +1,6 @@
+Analyzing daily_inspiration_banner.dart...                      
+
+warning • The value of the local variable 'colors' isn't used • lib/view/home/widgets/daily_inspiration_banner.dart:122:11 • unused_local_variable
+warning • The value of the local variable 'bgColor' isn't used • lib/view/home/widgets/daily_inspiration_banner.dart:130:11 • unused_local_variable
+
+2 issues found. (ran in 4.6s)

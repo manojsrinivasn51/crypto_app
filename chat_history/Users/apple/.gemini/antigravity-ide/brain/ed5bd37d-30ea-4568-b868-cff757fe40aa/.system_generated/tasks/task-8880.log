@@ -1,0 +1,41 @@
+Analyzing 3 items...                                            
+
+  error • Undefined name 'educationCertificateName' • lib/models/self_registration_model.dart:195:41 • undefined_identifier
+  error • Undefined name 'educationCertificatePath' • lib/providers/self_registration_provider.dart:166:9 • undefined_identifier
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:572:8 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:711:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:713:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:715:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:936:25 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:943:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:944:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:945:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:949:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1087:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1090:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1093:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1096:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1100:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1146:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1149:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1152:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1155:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1159:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1207:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1210:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1213:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1216:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1220:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1335:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1338:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1341:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1344:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1348:25 • curly_braces_in_flow_control_structures
+   info • Unnecessary override • lib/view/authentication/screens/self_registration_screen.dart:1705:8 • unnecessary_overrides
+   info • Unnecessary override • lib/view/authentication/screens/self_registration_screen.dart:1715:8 • unnecessary_overrides
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2465:7 • unused_element
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2597:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2683:10 • unused_element_parameter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/authentication/screens/self_registration_screen.dart:2814:40 • deprecated_member_use
+
+37 issues found. (ran in 5.2s)

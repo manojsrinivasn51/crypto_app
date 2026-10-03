@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T18:21:20+05:30
+Prompt: Check if flutter analyze compiles successfully after updating employee serialization fields
+
+[2026-07-16T18:21:15+05:30] Still waiting. Remaining time: 5s
+[2026-07-16T18:21:20+05:30] Timer fired.

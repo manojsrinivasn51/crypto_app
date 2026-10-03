@@ -1,0 +1,87 @@
+Analyzing veremax_hrm_flutter...
+
+  error - lib/repositories/payroll_repository.dart:38:10 - The name 'SalaryBreakdownModel' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'SalaryBreakdownModel'. - non_type_as_type_argument
+  error - lib/view/home/screens/holidays_screen.dart:96:53 - The getter 'surfaceSubtle' isn't defined for the type 'AppColors'. Try importing the library that defines 'surfaceSubtle', correcting the name to the name of an existing getter, or defining a getter or field named 'surfaceSubtle'. - undefined_getter
+  error - lib/view/home/screens/holidays_screen.dart:158:14 - The constructor being called isn't a const constructor. Try removing 'const' from the constructor invocation. - const_with_non_const
+  error - lib/view/home/widgets/holiday_card.dart:35:27 - The getter 'shadow' isn't defined for the type 'AppColors'. Try importing the library that defines 'shadow', correcting the name to the name of an existing getter, or defining a getter or field named 'shadow'. - undefined_getter
+  error - lib/view/home/widgets/holiday_card.dart:49:58 - The getter 'surfaceSubtle' isn't defined for the type 'AppColors'. Try importing the library that defines 'surfaceSubtle', correcting the name to the name of an existing getter, or defining a getter or field named 'surfaceSubtle'. - undefined_getter
+  error - lib/view/home/widgets/holiday_card.dart:96:40 - The getter 'bodySm' isn't defined for the type 'AppTypography'. Try importing the library that defines 'bodySm', correcting the name to the name of an existing getter, or defining a getter or field named 'bodySm'. - undefined_getter
+  error - lib/view/home/widgets/holiday_card.dart:107:13 - The class 'StatusChip' doesn't have an unnamed constructor. Try using one of the named constructors defined in 'StatusChip'. - new_with_undefined_constructor_default
+warning - lib/models/leave_model.dart:54:10 - The declaration '_mapLeaveType' isn't referenced. Try removing the declaration of '_mapLeaveType'. - unused_element
+warning - lib/providers/attendance_provider.dart:187:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:228:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:267:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:308:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/leave_provider.dart:77:13 - The value of the local variable 'submitted' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/permission_provider.dart:75:13 - The value of the local variable 'submitted' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/repositories/leave_repository.dart:53:13 - The value of the local variable 'response' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/repositories/payroll_repository.dart:3:8 - Unused import: 'package:project/services/api/api_helper.dart'. Try removing the import directive. - unused_import
+warning - lib/repositories/payroll_repository.dart:11:13 - The value of the field '_dio' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/repositories/permission_repository.dart:49:13 - The value of the local variable 'response' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/repositories/shared_repositories.dart:11:13 - The value of the field '_dio' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/services/route/app_router.dart:250:13 - The value of the local variable 'isForceChangePassword' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/view/authentication/screens/login_screen.dart:7:8 - Unused import: 'package:project/widgets/loading_overlay.dart'. Try removing the import directive. - unused_import
+warning - lib/view/home/screens/attendance_camera_screen.dart:32:10 - The value of the field '_fullAddress' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/view/home/screens/employee_home_screen.dart:29:8 - Unused import: 'package:project/widgets/stat_card.dart'. Try removing the import directive. - unused_import
+warning - lib/view/home/screens/employee_home_screen.dart:1150:11 - The value of the local variable 'isCheckingIn' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/view/home/screens/hr_home_screen.dart:18:10 - The value of the field '_hrName' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/view/home/screens/hr_home_screen.dart:20:10 - The value of the field '_hrRole' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/view/permission/screens/hr_permission_screen.dart:668:7 - The declaration '_BottomItem' isn't referenced. Try removing the declaration of '_BottomItem'. - unused_element
+warning - lib/view/profile/screens/employee_details_screen.dart:5:8 - Unused import: 'package:project/theme/theme_guide.dart'. Try removing the import directive. - unused_import
+warning - lib/view/profile/screens/employee_documents_screen.dart:7:8 - Unused import: 'package:project/view/profile/widgets/document_status_card.dart'. Try removing the import directive. - unused_import
+warning - lib/view/profile/screens/pdf_viewer_screen.dart:1:8 - Unused import: 'dart:io'. Try removing the import directive. - unused_import
+warning - lib/view/profile/screens/personal_details.dart:5:8 - Unused import: 'package:project/theme/theme_guide.dart'. Try removing the import directive. - unused_import
+warning - lib/view/profile/screens/profile_screen.dart:861:10 - A value for optional parameter 'subtitle' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/profile/screens/profile_screen.dart:862:10 - A value for optional parameter 'isDestructive' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/profile/screens/profile_screen.dart:863:10 - A value for optional parameter 'isToggle' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/profile/screens/profile_screen.dart:864:10 - A value for optional parameter 'toggleValue' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/profile/screens/profile_screen.dart:865:10 - A value for optional parameter 'onToggleChanged' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/widgets/loading/premium_shimmer.dart:2:8 - Unused import: 'package:project/theme/palette.dart'. Try removing the import directive. - unused_import
+warning - lib/widgets/loading/premium_shimmer.dart:3:8 - Unused import: 'package:project/theme/theme_guide.dart'. Try removing the import directive. - unused_import
+   info - lib/repositories/attendance_repository.dart:202:9 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/services/route/app_router.dart:287:52 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:288:51 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:289:65 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:301:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:305:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:309:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:313:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:324:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:328:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:332:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:336:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:340:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:346:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:350:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:354:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:367:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:376:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:380:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:384:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:394:62 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:397:52 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:398:57 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:399:57 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/home/screens/employee_home_screen.dart:398:43 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/home/screens/employee_home_screen.dart:398:47 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/home/screens/hr_home_screen.dart:228:43 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:247:43 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:263:45 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:567:33 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:668:52 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:679:41 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/hr_home_screen.dart:702:39 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/leave/screens/hr_leave_approval_screen.dart:84:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/leave/screens/leave_requests_screen.dart:238:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/permission/screens/permission_requests_screen.dart:146:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/permission/screens/permission_requests_screen.dart:249:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/payroll_screen.dart:89:9 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - lib/view/profile/screens/profile_screen.dart:343:65 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/profile_screen.dart:343:69 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/salary_log_screen.dart:34:31 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/widgets/app_button.dart:166:31 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/widgets/app_snackbar.dart:89:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/widgets/app_snackbar.dart:95:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/widgets/stat_card.dart:59:41 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+
+83 issues found.

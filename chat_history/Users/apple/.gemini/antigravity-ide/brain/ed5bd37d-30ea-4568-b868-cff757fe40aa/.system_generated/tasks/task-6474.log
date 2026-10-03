@@ -1,0 +1,7 @@
+Analyzing employee_home_screen.dart...                          
+
+warning • Unused import: 'package:project/widgets/status_chip.dart' • lib/view/home/screens/employee_home_screen.dart:30:8 • unused_import
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:410:43 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:410:47 • unnecessary_underscores
+
+3 issues found. (ran in 13.0s)

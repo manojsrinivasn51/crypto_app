@@ -1,0 +1,6 @@
+Analyzing 2 items...                                            
+
+   info • Unnecessary use of multiple underscores • lib/view/leave/screens/super_admin_leave_approval_screen.dart:249:45 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/permission/screens/super_admin_permission_screen.dart:249:45 • unnecessary_underscores
+
+2 issues found. (ran in 6.5s)

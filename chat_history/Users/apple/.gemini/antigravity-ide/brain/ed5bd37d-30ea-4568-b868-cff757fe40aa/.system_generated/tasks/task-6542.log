@@ -1,0 +1,10 @@
+Analyzing 3 items...                                            
+
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:850:32 • unnecessary_underscores
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1088:15 • undefined_named_parameter
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1097:15 • undefined_named_parameter
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1106:15 • undefined_named_parameter
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1118:19 • undefined_named_parameter
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1130:19 • undefined_named_parameter
+
+6 issues found. (ran in 4.9s)

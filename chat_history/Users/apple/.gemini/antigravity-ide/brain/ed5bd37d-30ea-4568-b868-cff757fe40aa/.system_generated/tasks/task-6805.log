@@ -1,0 +1,5 @@
+Analyzing self_registration_screen.dart...                      
+
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:872:32 • unnecessary_underscores
+
+1 issue found. (ran in 4.4s)

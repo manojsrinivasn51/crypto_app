@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-27T14:35:00+05:30
+Prompt: Wait for analyze to finish
+
+[2026-07-27T14:35:00+05:30] Timer fired.
