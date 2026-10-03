@@ -1,0 +1,82 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:575:8 • unused_element
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:679:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:691:54 • missing_identifier
+  error • The named parameter 'prefixIcon' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:705:21 • undefined_named_parameter
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:705:54 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:714:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:716:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:718:25 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:724:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:737:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:763:52 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:773:52 • missing_identifier
+  error • The named parameter 'prefixIcon' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:922:21 • undefined_named_parameter
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:922:63 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:940:25 • curly_braces_in_flow_control_structures
+  error • The named parameter 'prefixIcon' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:946:21 • undefined_named_parameter
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:946:58 • missing_identifier
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:947:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:948:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:949:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:953:25 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:966:60 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:980:60 • missing_identifier
+  error • The named parameter 'prefixIcon' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:998:21 • undefined_named_parameter
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:998:64 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1021:55 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1034:63 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1058:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1074:54 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1091:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1094:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1097:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1100:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1104:25 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1117:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1131:54 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1150:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1153:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1156:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1159:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1163:25 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1178:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1194:54 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1211:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1214:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1217:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1220:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1224:27 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1243:60 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1291:60 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1305:62 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1322:54 • missing_identifier
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1339:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1342:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1345:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1348:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1352:25 • curly_braces_in_flow_control_structures
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1372:61 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1392:57 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1403:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1417:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1433:54 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1536:64 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1549:64 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1565:54 • missing_identifier
+  error • The named parameter 'prefixIcon' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1581:21 • undefined_named_parameter
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1581:71 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1596:56 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1610:53 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1635:52 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1649:52 • missing_identifier
+  error • Expected an identifier • lib/view/authentication/screens/self_registration_screen.dart:1666:52 • missing_identifier
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2477:7 • unused_element
+  error • Undefined name 'prefixIcon' • lib/view/authentication/screens/self_registration_screen.dart:2557:21 • undefined_identifier
+  error • Undefined name 'prefixIcon' • lib/view/authentication/screens/self_registration_screen.dart:2559:21 • undefined_identifier
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2607:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2693:10 • unused_element_parameter
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/view/authentication/screens/self_registration_screen.dart:2824:40 • deprecated_member_use
+
+78 issues found. (ran in 7.5s)

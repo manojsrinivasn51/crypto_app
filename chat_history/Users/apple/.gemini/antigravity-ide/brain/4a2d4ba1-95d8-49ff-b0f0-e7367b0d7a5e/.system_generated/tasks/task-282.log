@@ -1,0 +1,10 @@
+Analyzing main_shell_screen.dart...                             
+
+warning • The value of the local variable 'colors' isn't used • lib/view/home/screens/main_shell_screen.dart:16:11 • unused_local_variable
+  error • Expected to find ')' • lib/view/home/screens/main_shell_screen.dart:85:11 • expected_token
+  error • Expected an identifier • lib/view/home/screens/main_shell_screen.dart:86:6 • missing_identifier
+  error • Expected to find ')' • lib/view/home/screens/main_shell_screen.dart:86:6 • expected_token
+  error • Expected to find ':' • lib/view/home/screens/main_shell_screen.dart:86:6 • expected_token
+warning • The declaration '_onTap' isn't referenced • lib/view/home/screens/main_shell_screen.dart:89:8 • unused_element
+
+6 issues found. (ran in 8.9s)

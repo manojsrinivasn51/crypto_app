@@ -1,0 +1,5 @@
+Analyzing employee_chat...                                      
+
+warning • This default clause is covered by the previous cases • lib/features/employee_chat/widgets/message_bubble.dart:24:7 • unreachable_switch_default
+
+1 issue found. (ran in 4.1s)

@@ -1,0 +1,17 @@
+Analyzing profile...                                            
+
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:540:63 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:540:67 • unnecessary_underscores
+warning • A value for optional parameter 'subtitle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1183:10 • unused_element_parameter
+warning • A value for optional parameter 'isDestructive' isn't ever given • lib/view/profile/screens/profile_screen.dart:1186:10 • unused_element_parameter
+warning • A value for optional parameter 'isToggle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1187:10 • unused_element_parameter
+warning • A value for optional parameter 'toggleValue' isn't ever given • lib/view/profile/screens/profile_screen.dart:1188:10 • unused_element_parameter
+warning • A value for optional parameter 'onToggleChanged' isn't ever given • lib/view/profile/screens/profile_screen.dart:1189:10 • unused_element_parameter
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/salary_log_screen.dart:34:31 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_employee_details_screen.dart:260:59 • unnecessary_underscores
+   info • The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:9:8 • unnecessary_import
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:136:17 • use_null_aware_elements
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:271:29 • unnecessary_underscores
+   info • The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/view/profile/widgets/profile_info_tile.dart:2:8 • unnecessary_import
+
+13 issues found. (ran in 8.2s)

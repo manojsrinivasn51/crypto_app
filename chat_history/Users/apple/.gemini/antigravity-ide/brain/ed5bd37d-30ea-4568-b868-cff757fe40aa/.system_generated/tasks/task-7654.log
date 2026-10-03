@@ -1,0 +1,12 @@
+Analyzing self_registration_screen.dart...                      
+
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:729:17 • duplicate_named_argument
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:995:34 • unnecessary_underscores
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:1051:17 • duplicate_named_argument
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:1085:17 • duplicate_named_argument
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:1133:23 • duplicate_named_argument
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:1180:23 • duplicate_named_argument
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1192:27 • curly_braces_in_flow_control_structures
+  error • The argument for the named parameter 'inputFormatters' was already specified • lib/view/authentication/screens/self_registration_screen.dart:1247:25 • duplicate_named_argument
+
+8 issues found. (ran in 5.8s)

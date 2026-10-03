@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T11:47:00+05:30
+Prompt: Wait for build_runner to finish code generation
+
+[2026-07-16T11:46:55+05:30] Still waiting. Remaining time: 5s
+[2026-07-16T11:47:00+05:30] Timer fired.

@@ -1,0 +1,36 @@
+  Generating the build script.
+  Compiling the build script.
+  Reading the asset graph.
+  Creating the asset graph.
+  Doing initial build cleanup.
+  Deleting 28 declared outputs which already existed on disk.
+  Updating the asset graph.
+  Building, full build because builders changed.
+  0s freezed on 177 inputs; lib/constants/backend_urls.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  19s freezed on 177 inputs: 1 no-op; spent 19s sdk; lib/constants/constants.dart
+  22s freezed on 177 inputs: 1 same, 5 no-op; spent 19s sdk, 2s analyzing; lib/features/employee_chat/providers/chat_provider.dart
+  23s freezed on 177 inputs: 1 output, 7 same, 23 no-op; spent 19s sdk, 2s analyzing, 1s building; lib/models/paginated_response.dart
+  24s freezed on 177 inputs: 1 output, 11 same, 27 no-op; spent 19s sdk, 3s analyzing, 2s building; lib/models/remote_work_model.dart
+  50s freezed on 177 inputs: 1 output, 14 same, 63 no-op; spent 23s analyzing, 19s sdk, 5s resolving, 2s building, 1s reading; lib/services/route/app_router.dart
+  51s freezed on 177 inputs: 1 output, 14 same, 122 no-op; spent 23s analyzing, 19s sdk, 5s resolving, 3s building, 1s reading; lib/view/profile/screens/super_admin_single_employee_detail_screen.dart
+  52s freezed on 177 inputs: 1 output, 14 same, 162 no-op; spent 23s analyzing, 19s sdk, 5s resolving, 3s building, 1s reading
+  0s json_serializable on 354 inputs; lib/constants/backend_urls.dart
+  1s json_serializable on 354 inputs: 3 skipped, 4 no-op; lib/constants/keys.freezed.dart
+  2s json_serializable on 354 inputs: 5 skipped, 1 output, 5 no-op; spent 1s analyzing; lib/features/employee_chat/models/chat_models.freezed.dart
+  15s json_serializable on 354 inputs: 5 skipped, 1 output, 7 no-op; spent 12s analyzing, 2s resolving; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  17s json_serializable on 354 inputs: 10 skipped, 1 output, 12 no-op; spent 13s analyzing, 2s resolving; lib/features/employee_chat/widgets/chat_input_bar.freezed.dart
+  32s json_serializable on 354 inputs: 14 skipped, 1 output, 16 no-op; spent 24s analyzing, 5s resolving, 1s building, 1s reading; lib/main.freezed.dart
+  33s json_serializable on 354 inputs: 25 skipped, 9 output, 35 no-op; spent 25s analyzing, 5s resolving, 2s building, 1s reading; lib/models/permission_model.freezed.dart
+  34s json_serializable on 354 inputs: 50 skipped, 15 output, 66 no-op; spent 26s analyzing, 5s resolving, 2s building, 1s reading; lib/repositories/permission_repository.freezed.dart
+  35s json_serializable on 354 inputs: 75 skipped, 15 output, 91 no-op; spent 27s analyzing, 5s resolving, 2s building, 1s reading; lib/view/authentication/widgets/self_registration_steps/step2_family_details.freezed.dart
+  36s json_serializable on 354 inputs: 94 skipped, 15 output, 110 no-op; spent 28s analyzing, 5s resolving, 2s building, 1s reading; lib/view/home/widgets/super_admin_leave_bottom_sheet.freezed.dart
+  37s json_serializable on 354 inputs: 115 skipped, 15 output, 131 no-op; spent 29s analyzing, 5s resolving, 2s building, 1s reading; lib/view/profile/screens/finance_details_screen.freezed.dart
+  38s json_serializable on 354 inputs: 152 skipped, 15 output, 168 no-op; spent 30s analyzing, 5s resolving, 2s building, 1s reading; lib/widgets/responsive_grid_row.freezed.dart
+  40s json_serializable on 354 inputs: 158 skipped, 15 output, 174 no-op; spent 32s analyzing, 5s resolving, 2s building, 1s reading; test/api_endpoints_test.freezed.dart
+  41s json_serializable on 354 inputs: 162 skipped, 15 output, 177 no-op; spent 32s analyzing, 5s resolving, 2s building, 1s reading
+  0s source_gen:combining_builder on 354 inputs; lib/constants/backend_urls.dart
+  1s source_gen:combining_builder on 354 inputs: 162 skipped, 15 output, 177 no-op
+  Running the post build.
+  Writing the asset graph.
+  Built with build_runner in 100s; wrote 45 outputs.

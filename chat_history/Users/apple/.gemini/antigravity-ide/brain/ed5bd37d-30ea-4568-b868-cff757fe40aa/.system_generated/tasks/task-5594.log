@@ -1,0 +1,84 @@
+Analyzing veremax_hrm_flutter...                                
+
+warning • The value of the field '_filteredConversations' isn't used • lib/features/employee_chat/screens/chat_list_screen.dart:20:28 • unused_field
+warning • The value of the local variable 'lastReadAt' isn't used • lib/features/employee_chat/screens/chat_screen.dart:216:11 • unused_local_variable
+warning • The value of the local variable 'isOnline' isn't used • lib/features/employee_chat/widgets/conversation_tile.dart:51:11 • unused_local_variable
+   info • Statements in an if should be enclosed in a block • lib/models/leave_model.dart:49:37 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/models/leave_model.dart:50:35 • curly_braces_in_flow_control_structures
+warning • The declaration '_mapLeaveType' isn't referenced • lib/models/leave_model.dart:72:10 • unused_element
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:229:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:271:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:310:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:352:13 • unused_local_variable
+warning • The exception variable 'e' isn't used, so the 'catch' clause can be removed • lib/repositories/attendance_repository.dart:205:30 • unused_catch_clause
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:34:9 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:35:9 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:67:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:68:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:101:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:102:7 • use_null_aware_elements
+warning • The value of the field '_dio' isn't used • lib/repositories/payroll_repository.dart:10:13 • unused_field
+warning • Unused import: 'package:flutter/foundation.dart' • lib/repositories/permission_repository.dart:6:8 • unused_import
+warning • The exception variable 'e' isn't used, so the 'catch' clause can be removed • lib/repositories/permission_repository.dart:40:30 • unused_catch_clause
+   info • Empty catch block • lib/repositories/remote_work_repository.dart:35:23 • empty_catches
+warning • The value of the field '_dio' isn't used • lib/repositories/shared_repositories.dart:11:13 • unused_field
+warning • Unused import: 'package:flutter/foundation.dart' • lib/services/device/device_service.dart:4:8 • unused_import
+   info • Empty catch block • lib/services/device/device_service.dart:48:17 • empty_catches
+   info • Empty catch block • lib/services/device/device_service.dart:67:21 • empty_catches
+warning • The value of the local variable 'bgColor' isn't used • lib/services/route/app_router.dart:130:17 • unused_local_variable
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:307:52 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:308:51 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:311:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:315:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:328:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:332:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:336:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:340:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:351:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:355:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:359:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:363:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:376:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:380:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:395:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:399:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:403:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:416:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:420:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:433:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:442:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:447:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:451:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:463:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:469:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:473:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:477:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:485:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:489:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:493:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:504:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:508:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:512:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:687:32 • unnecessary_underscores
+warning • The value of the field '_fullAddress' isn't used • lib/view/home/screens/attendance_camera_screen.dart:32:10 • unused_field
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:407:43 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:407:47 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/leave/screens/leave_requests_screen.dart:238:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/leave/screens/super_admin_leave_approval_screen.dart:254:45 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/permission/screens/permission_requests_screen.dart:250:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/permission/screens/super_admin_permission_screen.dart:252:45 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:531:63 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:531:67 • unnecessary_underscores
+warning • A value for optional parameter 'subtitle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1128:10 • unused_element_parameter
+warning • A value for optional parameter 'isDestructive' isn't ever given • lib/view/profile/screens/profile_screen.dart:1131:10 • unused_element_parameter
+warning • A value for optional parameter 'isToggle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1132:10 • unused_element_parameter
+warning • A value for optional parameter 'toggleValue' isn't ever given • lib/view/profile/screens/profile_screen.dart:1133:10 • unused_element_parameter
+warning • A value for optional parameter 'onToggleChanged' isn't ever given • lib/view/profile/screens/profile_screen.dart:1134:10 • unused_element_parameter
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/salary_log_screen.dart:34:31 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_employee_details_screen.dart:260:59 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:280:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/queries/screens/queries_screen.dart:152:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/queries/screens/super_admin_queries_screen.dart:159:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/remote_work/screens/remote_work_requests_screen.dart:136:49 • unnecessary_underscores
+
+80 issues found. (ran in 12.1s)

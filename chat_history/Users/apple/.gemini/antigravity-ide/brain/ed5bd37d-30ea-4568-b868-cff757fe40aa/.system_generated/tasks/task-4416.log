@@ -1,0 +1,39 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s freezed on 173 inputs; lib/constants/backend_urls.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  1s freezed on 173 inputs: 1 no-op; lib/constants/constants.dart
+  5s freezed on 173 inputs: 21 skipped, 1 output, 1 no-op; spent 4s analyzing; lib/models/financial_model.dart
+  5s freezed on 173 inputs: 170 skipped, 1 output, 1 same, 1 no-op; spent 4s analyzing
+  0s json_serializable on 346 inputs; lib/constants/backend_urls.dart
+  45s json_serializable on 346 inputs: 13 skipped, 2 no-op; spent 35s analyzing, 7s resolving, 1s building; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  64s json_serializable on 346 inputs: 25 skipped, 8 no-op; spent 50s analyzing, 10s resolving, 2s building, 2s reading; lib/main.freezed.dart
+E json_serializable on lib/models/employee_model.dart:
+  Could not generate `toJson` code for `financial`.
+  To support the type `FinancialModel` you can:
+  * Use `JsonConverter`
+    https://pub.dev/documentation/json_annotation/latest/json_annotation/JsonConverter-class.html
+  * Use `JsonKey` fields `fromJson` and `toJson`
+    https://pub.dev/documentation/json_annotation/latest/json_annotation/JsonKey/fromJson.html
+    https://pub.dev/documentation/json_annotation/latest/json_annotation/JsonKey/toJson.html
+  package:project/models/employee_model.freezed.dart:709:25
+      ╷
+  709 │   final FinancialModel? financial;
+      │                         ^^^^^^^^^
+      ╵
+  65s json_serializable on 346 inputs: 79 skipped, 1 same, 11 no-op; spent 50s analyzing, 10s resolving, 2s building, 2s reading; lib/providers/attendance_provider.freezed.dart
+  66s json_serializable on 346 inputs: 107 skipped, 1 same, 37 no-op; spent 51s analyzing, 11s resolving, 3s building, 2s reading; lib/services/api/api_helper.freezed.dart
+  67s json_serializable on 346 inputs: 140 skipped, 1 same, 44 no-op; spent 52s analyzing, 11s resolving, 3s building, 2s reading; lib/view/home/screens/employee_home_screen.freezed.dart
+  68s json_serializable on 346 inputs: 162 skipped, 1 same, 56 no-op; spent 53s analyzing, 11s resolving, 3s building, 2s reading; lib/view/payment_claims/screens/payment_claims_screen.freezed.dart
+  70s json_serializable on 346 inputs: 175 skipped, 1 same, 67 no-op; spent 54s analyzing, 11s resolving, 3s building, 2s reading; lib/view/profile/screens/employee_documents_screen.freezed.dart
+  71s json_serializable on 346 inputs: 197 skipped, 1 same, 79 no-op; spent 55s analyzing, 11s resolving, 3s building, 2s reading; lib/view/queries/widgets/super_admin_query_reply_modal.freezed.dart
+  73s json_serializable on 346 inputs: 255 skipped, 1 same, 83 no-op; spent 57s analyzing, 11s resolving, 3s building, 2s reading; test/api_endpoints_test.freezed.dart
+  73s json_serializable on 346 inputs: 261 skipped, 1 same, 84 no-op; spent 57s analyzing, 11s resolving, 3s building, 2s reading
+  0s source_gen:combining_builder on 346 inputs; lib/constants/backend_urls.dart
+  0s source_gen:combining_builder on 346 inputs: 344 skipped, 1 same, 1 no-op
+  Running the post build.
+  Writing the asset graph.
+  Failed to build with build_runner in 85s; wrote 4 outputs.

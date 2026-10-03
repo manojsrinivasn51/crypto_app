@@ -1,0 +1,37 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_buildPremiumCard' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:574:8 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:705:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:707:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:709:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:895:25 • curly_braces_in_flow_control_structures
+warning • The operand can't be 'null', so the condition is always 'true' • lib/view/authentication/screens/self_registration_screen.dart:901:40 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/view/authentication/screens/self_registration_screen.dart:902:55 • unnecessary_non_null_assertion
+warning • Dead code • lib/view/authentication/screens/self_registration_screen.dart:903:27 • dead_code
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:907:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:952:25 • curly_braces_in_flow_control_structures
+  error • The getter 'bodySm' isn't defined for the type 'AppTypography' • lib/view/authentication/screens/self_registration_screen.dart:1111:44 • undefined_getter
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1209:5 • undefined_identifier
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1210:5 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1211:5 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1212:5 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1213:5 • undefined_identifier
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1237:31 • undefined_identifier
+  error • Undefined name '_totalExpCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1244:69 • undefined_identifier
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1245:19 • undefined_named_parameter
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1257:35 • undefined_identifier
+  error • Undefined name '_prevCompanyCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1259:72 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1264:35 • undefined_identifier
+  error • Undefined name '_prevDesigCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1266:79 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1274:35 • undefined_identifier
+  error • Undefined name '_prevDurYearsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1281:81 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1286:35 • undefined_identifier
+  error • Undefined name '_prevDurMonthsCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1293:82 • undefined_identifier
+  error • Undefined name '_accNumCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1357:33 • undefined_identifier
+  error • Undefined name '_accNumCtrl' • lib/view/authentication/screens/self_registration_screen.dart:1365:64 • undefined_identifier
+  error • The named parameter 'onChanged' isn't defined • lib/view/authentication/screens/self_registration_screen.dart:1632:19 • undefined_named_parameter
+warning • The declaration '_SectionHeader' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2246:7 • unused_element
+warning • The declaration '_RadioGroup' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:2362:7 • unused_element
+warning • A value for optional parameter 'validator' isn't ever given • lib/view/authentication/screens/self_registration_screen.dart:2448:10 • unused_element_parameter
+
+33 issues found. (ran in 6.5s)

@@ -1,0 +1,150 @@
+Analyzing veremax_hrm_flutter...
+
+  error - lib/view/authentication/screens/self_registration_screen.dart:48:7 - Missing concrete implementation of 'abstract class State<T extends StatefulWidget> with Diagnosticable.build'. Try implementing the missing method, or make the class abstract. - non_abstract_class_inherits_abstract_member
+  error - lib/view/authentication/screens/self_registration_screen.dart:258:27 - The function '_prevStep' isn't defined. Try importing the library that defines '_prevStep', correcting the name to the name of an existing function, or defining a function named '_prevStep'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:286:32 - Undefined name '_stepCompleted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:291:25 - Undefined name '_formKeys'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:294:27 - The function '_checkAllMobilesUnique' isn't defined. Try importing the library that defines '_checkAllMobilesUnique', correcting the name to the name of an existing function, or defining a function named '_checkAllMobilesUnique'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:296:21 - The function 'setState' isn't defined. Try importing the library that defines 'setState', correcting the name to the name of an existing function, or defining a function named 'setState'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:297:23 - Undefined name '_stepCompleted'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:301:21 - Undefined name '_pageController'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:313:31 - Undefined name '_pageController'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:317:32 - Undefined name '_formKeys'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:321:37 - The function '_nextStep' isn't defined. Try importing the library that defines '_nextStep', correcting the name to the name of an existing function, or defining a function named '_nextStep'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:322:37 - Undefined name '_validationError'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:325:32 - Undefined name '_formKeys'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:329:37 - The function '_nextStep' isn't defined. Try importing the library that defines '_nextStep', correcting the name to the name of an existing function, or defining a function named '_nextStep'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:330:37 - Undefined name '_validationError'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:333:32 - Undefined name '_formKeys'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:337:37 - The function '_nextStep' isn't defined. Try importing the library that defines '_nextStep', correcting the name to the name of an existing function, or defining a function named '_nextStep'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:338:37 - Undefined name '_validationError'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:341:32 - Undefined name '_formKeys'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib/view/authentication/screens/self_registration_screen.dart:345:39 - The function '_submit' isn't defined. Try importing the library that defines '_submit', correcting the name to the name of an existing function, or defining a function named '_submit'. - undefined_function
+  error - lib/view/authentication/screens/self_registration_screen.dart:356:1 - Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it. - expected_executable
+warning - lib/features/employee_chat/screens/chat_list_screen.dart:20:28 - The value of the field '_filteredConversations' isn't used. Try removing the field, or using it. - unused_field
+warning - lib/features/employee_chat/screens/chat_screen.dart:230:11 - The value of the local variable 'lastReadAt' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/features/employee_chat/widgets/conversation_tile.dart:58:11 - The value of the local variable 'isOnline' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/models/leave_model.dart:72:10 - The declaration '_mapLeaveType' isn't referenced. Try removing the declaration of '_mapLeaveType'. - unused_element
+warning - lib/providers/attendance_provider.dart:234:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:276:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:315:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/attendance_provider.dart:357:13 - The value of the local variable 'deviceInfo' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/providers/auth_provider.dart:59:13 - The value of the local variable 'payload' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/repositories/attendance_repository.dart:207:30 - The exception variable 'e' isn't used, so the 'catch' clause can be removed. Try removing the catch clause. - unused_catch_clause
+warning - lib/repositories/permission_repository.dart:6:8 - Unused import: 'package:flutter/foundation.dart'. Try removing the import directive. - unused_import
+warning - lib/repositories/permission_repository.dart:42:30 - The exception variable 'e' isn't used, so the 'catch' clause can be removed. Try removing the catch clause. - unused_catch_clause
+warning - lib/services/device/device_service.dart:4:8 - Unused import: 'package:flutter/foundation.dart'. Try removing the import directive. - unused_import
+warning - lib/services/route/app_router.dart:130:17 - The value of the local variable 'bgColor' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - lib/view/authentication/screens/self_registration_screen.dart:107:8 - The declaration '_nextStep' isn't referenced. Try removing the declaration of '_nextStep'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:160:8 - The declaration '_prevStep' isn't referenced. Try removing the declaration of '_prevStep'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:168:16 - The declaration '_submit' isn't referenced. Try removing the declaration of '_submit'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:478:7 - The declaration '_BottomNav' isn't referenced. Try removing the declaration of '_BottomNav'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:496:10 - A value for optional parameter 'errorMessage' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/authentication/screens/self_registration_screen.dart:624:8 - The declaration '_buildPremiumCard' isn't referenced. Try removing the declaration of '_buildPremiumCard'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:1051:40 - The operand can't be 'null', so the condition is always 'true'. Remove the condition. - unnecessary_null_comparison
+warning - lib/view/authentication/screens/self_registration_screen.dart:1052:55 - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator. - unnecessary_non_null_assertion
+warning - lib/view/authentication/screens/self_registration_screen.dart:1053:27 - Dead code. Try removing the code, or fixing the code before it so that it can be reached. - dead_code
+warning - lib/view/authentication/screens/self_registration_screen.dart:2645:7 - The declaration '_SectionHeader' isn't referenced. Try removing the declaration of '_SectionHeader'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:2784:7 - The declaration '_RadioGroup' isn't referenced. Try removing the declaration of '_RadioGroup'. - unused_element
+warning - lib/view/authentication/screens/self_registration_screen.dart:2870:10 - A value for optional parameter 'validator' isn't ever given. Try removing the unused parameter. - unused_element_parameter
+warning - lib/view/home/screens/attendance_camera_screen.dart:123:14 - The value of the local variable 'fullAddress' isn't used. Try removing the variable or using it. - unused_local_variable
+   info - lib/features/employee_chat/screens/chat_list_screen.dart:122:33 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/features/employee_chat/screens/chat_list_screen.dart:125:33 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/main.dart:1:8 - The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart'. Try removing the import directive. - unnecessary_import
+   info - lib/models/leave_model.dart:49:37 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/models/leave_model.dart:50:35 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/providers/holidays_provider.dart:33:9 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/repositories/payment_claim_repository.dart:34:9 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/payment_claim_repository.dart:35:9 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/payment_claim_repository.dart:67:7 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/payment_claim_repository.dart:68:7 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/payment_claim_repository.dart:101:7 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/payment_claim_repository.dart:102:7 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/repositories/remote_work_repository.dart:35:23 - Empty catch block. Try adding statements to the block, adding a comment to the block, or removing the 'catch' clause. - empty_catches
+   info - lib/repositories/self_registration_repository.dart:149:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib/repositories/self_registration_repository.dart:150:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib/repositories/self_registration_repository.dart:152:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib/repositories/self_registration_repository.dart:154:9 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib/services/device/device_service.dart:48:17 - Empty catch block. Try adding statements to the block, adding a comment to the block, or removing the 'catch' clause. - empty_catches
+   info - lib/services/device/device_service.dart:66:21 - Empty catch block. Try adding statements to the block, adding a comment to the block, or removing the 'catch' clause. - empty_catches
+   info - lib/services/route/app_router.dart:307:52 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:308:51 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:311:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:315:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:328:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:332:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:336:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:340:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:351:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:355:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:359:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:363:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:376:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:380:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:395:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:399:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:403:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:416:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:420:38 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:433:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:442:30 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:447:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:451:34 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:463:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:469:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:473:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:477:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:487:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:491:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:495:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:506:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:510:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/services/route/app_router.dart:514:22 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/theme/theme_guide.dart:124:14 - Missing type annotation. Try adding a type annotation. - strict_top_level_inference
+   info - lib/view/authentication/screens/force_change_password_screen.dart:196:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/force_change_password_screen.dart:209:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/force_change_password_screen.dart:211:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/force_change_password_screen.dart:213:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/force_change_password_screen.dart:226:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/force_change_password_screen.dart:228:29 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:198:32 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib/view/authentication/screens/self_registration_screen.dart:201:45 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib/view/authentication/screens/self_registration_screen.dart:768:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:770:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:772:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:1208:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:1254:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:1301:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:1415:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/authentication/screens/self_registration_screen.dart:1857:8 - Unnecessary override. Try adding behavior in the overriding member or removing the override. - unnecessary_overrides
+   info - lib/view/authentication/screens/self_registration_screen.dart:1867:8 - Unnecessary override. Try adding behavior in the overriding member or removing the override. - unnecessary_overrides
+   info - lib/view/authentication/screens/self_registration_screen.dart:3001:40 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib/view/home/screens/employee_home_screen.dart:413:43 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/home/screens/employee_home_screen.dart:413:47 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/leave/screens/leave_requests_screen.dart:261:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/leave/screens/super_admin_leave_approval_screen.dart:256:45 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/permission/screens/permission_requests_screen.dart:262:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/permission/screens/super_admin_permission_screen.dart:254:45 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/edit_finance_details_screen.dart:141:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/edit_finance_details_screen.dart:143:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/edit_finance_details_screen.dart:168:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/edit_finance_details_screen.dart:170:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/edit_personal_details_screen.dart:269:25 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/payroll_screen.dart:216:15 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/payroll_screen.dart:218:15 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/profile/screens/profile_screen.dart:557:63 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/profile_screen.dart:557:67 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/super_admin_employee_details_screen.dart:290:59 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:175:17 - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?'. - use_null_aware_elements
+   info - lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:345:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/queries/screens/queries_screen.dart:152:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/queries/screens/super_admin_queries_screen.dart:170:29 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:456:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:458:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:460:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:466:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:468:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/queries/widgets/super_admin_query_reply_modal.dart:470:27 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib/view/remote_work/screens/remote_work_requests_screen.dart:152:45 - Unnecessary use of multiple underscores. Try using '_'. - unnecessary_underscores
+
+146 issues found.

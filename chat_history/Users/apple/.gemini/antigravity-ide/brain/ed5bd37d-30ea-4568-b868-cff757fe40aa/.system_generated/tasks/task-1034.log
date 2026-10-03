@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T18:18:52+05:30
+Prompt: Check if flutter analyze compiles successfully after introducing safe _parseInt helper
+
+[2026-07-16T18:18:47+05:30] Still waiting. Remaining time: 5s
+[2026-07-16T18:18:51+05:30] Timer cancelled: agent received a message during wait.

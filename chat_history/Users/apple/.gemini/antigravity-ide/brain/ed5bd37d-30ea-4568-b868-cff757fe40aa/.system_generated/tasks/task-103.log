@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T11:32:51+05:30
+Prompt: Wait for flutter analyze to complete verification
+
+[2026-07-16T11:32:46+05:30] Still waiting. Remaining time: 5s
+[2026-07-16T11:32:51+05:30] Timer fired.

@@ -1,0 +1,23 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s freezed on 163 inputs; lib/constants/backend_urls.dart
+  0s freezed on 163 inputs: 1 skipped; lib/constants/constants.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  5s freezed on 163 inputs: 31 skipped, 1 output; spent 3s analyzing; lib/models/payroll_model.dart
+  5s freezed on 163 inputs: 155 skipped, 1 output, 7 no-op; spent 4s analyzing
+  0s json_serializable on 326 inputs; lib/constants/backend_urls.dart
+  42s json_serializable on 326 inputs: 14 skipped, 1 no-op; spent 32s analyzing, 8s resolving, 1s reading; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  60s json_serializable on 326 inputs: 27 skipped, 6 no-op; spent 46s analyzing, 10s resolving, 2s reading, 1s building; lib/main.freezed.dart
+  61s json_serializable on 326 inputs: 56 skipped, 1 output, 6 no-op; spent 47s analyzing, 10s resolving, 2s reading, 1s building; lib/models/payment_claim_model.freezed.dart
+  62s json_serializable on 326 inputs: 163 skipped, 1 output, 15 no-op; spent 48s analyzing, 10s resolving, 2s reading, 1s building; lib/view/home/screens/employee_home_screen.freezed.dart
+  63s json_serializable on 326 inputs: 203 skipped, 1 output, 23 no-op; spent 49s analyzing, 10s resolving, 2s reading, 1s building; lib/view/profile/screens/change_password_screen.freezed.dart
+  64s json_serializable on 326 inputs: 273 skipped, 1 output, 29 no-op; spent 50s analyzing, 10s resolving, 2s reading, 1s building; lib/widgets/primary_action_button.freezed.dart
+  64s json_serializable on 326 inputs: 296 skipped, 1 output, 29 no-op; spent 50s analyzing, 10s resolving, 2s reading, 1s building
+  0s source_gen:combining_builder on 326 inputs; lib/constants/backend_urls.dart
+  1s source_gen:combining_builder on 326 inputs: 325 skipped, 1 output
+  Running the post build.
+  Writing the asset graph.
+  Built with build_runner in 76s; wrote 3 outputs.

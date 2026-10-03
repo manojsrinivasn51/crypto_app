@@ -1,0 +1,7 @@
+Analyzing widgets...                                            
+
+warning • The value of the local variable 'colors' isn't used • lib/view/home/widgets/daily_inspiration_banner.dart:122:11 • unused_local_variable
+   info • Unnecessary use of multiple underscores • lib/view/home/widgets/super_admin_leave_bottom_sheet.dart:158:43 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/home/widgets/super_admin_present_bottom_sheet.dart:146:43 • unnecessary_underscores
+
+3 issues found. (ran in 8.6s)

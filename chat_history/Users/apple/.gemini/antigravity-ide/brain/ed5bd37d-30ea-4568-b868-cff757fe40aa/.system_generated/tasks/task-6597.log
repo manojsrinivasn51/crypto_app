@@ -1,0 +1,5 @@
+Analyzing 2 items...                                            
+
+warning • The value of the local variable 'isOnline' isn't used • lib/features/employee_chat/widgets/conversation_tile.dart:53:11 • unused_local_variable
+
+1 issue found. (ran in 6.4s)

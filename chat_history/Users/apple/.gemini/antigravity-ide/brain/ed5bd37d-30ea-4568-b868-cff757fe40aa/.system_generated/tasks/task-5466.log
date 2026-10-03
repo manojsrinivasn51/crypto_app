@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-22T18:35:36+05:30
+Prompt: Wait for final analyze check
+
+[2026-07-22T18:35:31+05:30] Timer cancelled: agent received a message during wait.

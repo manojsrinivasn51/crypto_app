@@ -1,0 +1,7 @@
+Analyzing self_registration_screen.dart...                      
+
+warning • The declaration '_DuplicateMobileException' isn't referenced • lib/view/authentication/screens/self_registration_screen.dart:30:7 • unused_element
+  error • The method '_checkAllMobilesUnique' isn't defined for the type '_SelfRegistrationViewState' • lib/view/authentication/screens/self_registration_screen.dart:61:32 • undefined_method
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:811:32 • unnecessary_underscores
+
+3 issues found. (ran in 6.3s)

@@ -1,0 +1,6 @@
+Analyzing 2 items...                                            
+
+  error • The named parameter 'status' isn't defined • lib/view/payment_claims/screens/pending_approvals_screen.dart:70:52 • undefined_named_parameter
+  error • The named parameter 'status' isn't defined • lib/view/payment_claims/screens/pending_approvals_screen.dart:105:42 • undefined_named_parameter
+
+2 issues found. (ran in 3.9s)

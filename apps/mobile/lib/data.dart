@@ -1,69 +1,153 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-double _d(dynamic v) => (v ?? 0).toDouble();
+// Helper function to safely convert dynamic values to double
+double convertToDouble(dynamic value) {
+  if (value == null) {
+    return 0.0;
+  }
+  return value.toDouble();
+}
 
 class Coin {
-  final String id, name, symbol;
+  final String id;
+  final String name;
+  final String symbol;
   final String? image;
-  final double price, change, volume, marketCap, circulating;
+  final double price;
+  final double change;
+  final double volume;
+  final double marketCap;
+  final double circulating;
   final double? maxSupply;
   final List<double> spark;
-  Coin({required this.id, required this.name, required this.symbol, this.image, required this.price,
-    required this.change, required this.volume, required this.marketCap, required this.circulating,
-    this.maxSupply, required this.spark});
 
-  factory Coin.fromJson(Map<String, dynamic> j) => Coin(
-        id: j['id'],
-        name: j['name'],
-        symbol: (j['symbol'] as String).toUpperCase(),
-        image: j['image'],
-        price: _d(j['current_price']),
-        change: _d(j['price_change_percentage_24h']),
-        volume: _d(j['total_volume']),
-        marketCap: _d(j['market_cap']),
-        circulating: _d(j['circulating_supply']),
-        maxSupply: j['max_supply'] == null ? null : _d(j['max_supply']),
-        spark: ((j['sparkline_in_7d']?['price'] as List?) ?? []).map<double>(_d).toList(),
-      );
+  // Constructor
+  Coin({
+    required this.id,
+    required this.name,
+    required this.symbol,
+    this.image,
+    required this.price,
+    required this.change,
+    required this.volume,
+    required this.marketCap,
+    required this.circulating,
+    this.maxSupply,
+    required this.spark,
+  });
+
+  // Factory constructor to create a Coin object from JSON data
+  factory Coin.fromJson(Map<String, dynamic> json) {
+    // Safely parse the max supply
+    double? parsedMaxSupply;
+    if (json['max_supply'] != null) {
+      parsedMaxSupply = convertToDouble(json['max_supply']);
+    }
+
+    // Safely parse the sparkline data
+    List<double> parsedSparkline = [];
+    if (json['sparkline_in_7d'] != null && json['sparkline_in_7d']['price'] != null) {
+      List<dynamic> rawPrices = json['sparkline_in_7d']['price'];
+      for (int i = 0; i < rawPrices.length; i++) {
+        parsedSparkline.add(convertToDouble(rawPrices[i]));
+      }
+    }
+
+    return Coin(
+      id: json['id'],
+      name: json['name'],
+      symbol: (json['symbol'] as String).toUpperCase(),
+      image: json['image'],
+      price: convertToDouble(json['current_price']),
+      change: convertToDouble(json['price_change_percentage_24h']),
+      volume: convertToDouble(json['total_volume']),
+      marketCap: convertToDouble(json['market_cap']),
+      circulating: convertToDouble(json['circulating_supply']),
+      maxSupply: parsedMaxSupply,
+      spark: parsedSparkline,
+    );
+  }
 }
 
 class Api {
   // Direct CoinGecko API URL
-  static const base = String.fromEnvironment('API', defaultValue: 'https://api.coingecko.com/api/v3');
+  static const String baseUrl = String.fromEnvironment('API', defaultValue: 'https://api.coingecko.com/api/v3');
 
-  Future<dynamic> _get(String path) async {
-    final r = await http.get(Uri.parse('$base$path')).timeout(const Duration(seconds: 12));
-    if (r.statusCode != 200) throw Exception('Server error ${r.statusCode}');
-    return jsonDecode(r.body);
+  // Generic method to make GET requests to the API
+  Future<dynamic> getRequest(String path) async {
+    Uri url = Uri.parse('$baseUrl$path');
+    
+    try {
+      final response = await http.get(url).timeout(const Duration(seconds: 12));
+      
+      if (response.statusCode != 200) {
+        throw Exception('Server error: received status code ${response.statusCode}');
+      }
+      
+      return jsonDecode(response.body);
+    } catch (e) {
+      print('Error making GET request to $path: $e');
+      rethrow;
+    }
   }
 
-  Future<List<Coin>> coins() async =>
-      ((await _get('/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=true')) as List)
-          .map((j) => Coin.fromJson(j as Map<String, dynamic>))
-          .toList();
+  // Fetch the list of coins
+  Future<List<Coin>> coins() async {
+    dynamic responseData = await getRequest('/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=true');
+    
+    List<dynamic> jsonList = responseData as List<dynamic>;
+    List<Coin> coinList = [];
+    
+    for (int i = 0; i < jsonList.length; i++) {
+      Map<String, dynamic> coinJson = jsonList[i] as Map<String, dynamic>;
+      Coin parsedCoin = Coin.fromJson(coinJson);
+      coinList.add(parsedCoin);
+    }
+    
+    return coinList;
+  }
 
+  // Fetch global market data
   Future<Map<String, dynamic>> global() async {
-    final r = await _get('/global');
-    final g = r['data'];
+    dynamic responseData = await getRequest('/global');
+    Map<String, dynamic> globalData = responseData['data'];
+    
     return {
-      'marketCap': _d(g['total_market_cap']['usd']),
-      'volume': _d(g['total_volume']['usd']),
-      'btcDominance': _d(g['market_cap_percentage']['btc']),
-      'change24h': _d(g['market_cap_change_percentage_24h_usd']),
+      'marketCap': convertToDouble(globalData['total_market_cap']['usd']),
+      'volume': convertToDouble(globalData['total_volume']['usd']),
+      'btcDominance': convertToDouble(globalData['market_cap_percentage']['btc']),
+      'change24h': convertToDouble(globalData['market_cap_change_percentage_24h_usd']),
     };
   }
 
-  Future<List<List<double>>> chart(String id, String days) async {
-    final r = await _get('/coins/$id/market_chart?vs_currency=usd&days=$days');
-    return (r['prices'] as List).map<List<double>>((p) => [_d(p[0]), _d(p[1])]).toList();
+  // Fetch chart data for a specific coin
+  Future<List<List<double>>> chart(String coinId, String days) async {
+    dynamic responseData = await getRequest('/coins/$coinId/market_chart?vs_currency=usd&days=$days');
+    
+    List<dynamic> pricesList = responseData['prices'] as List<dynamic>;
+    List<List<double>> formattedChartData = [];
+    
+    for (int i = 0; i < pricesList.length; i++) {
+      List<dynamic> point = pricesList[i];
+      double timestamp = convertToDouble(point[0]);
+      double price = convertToDouble(point[1]);
+      
+      formattedChartData.add([timestamp, price]);
+    }
+    
+    return formattedChartData;
   }
 
   // Without a backend, we just return an empty watchlist and save it in memory (AppState)
-  Future<List<String>> watchlist() async => [];
+  Future<List<String>> watchlist() async {
+    return [];
+  }
 
-  Future<void> setWatch(String id, bool on) async {
+  // Set whether a coin is on the watchlist
+  Future<void> setWatch(String coinId, bool isOn) async {
     // Simulate network delay for UI consistency
     await Future.delayed(const Duration(milliseconds: 200));
+    print('Simulated setting watch for $coinId to $isOn');
   }
 }

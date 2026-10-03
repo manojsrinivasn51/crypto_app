@@ -1,0 +1,5 @@
+Analyzing super_admin_employee_details_screen.dart...           
+
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_employee_details_screen.dart:288:59 • unnecessary_underscores
+
+1 issue found. (ran in 6.0s)

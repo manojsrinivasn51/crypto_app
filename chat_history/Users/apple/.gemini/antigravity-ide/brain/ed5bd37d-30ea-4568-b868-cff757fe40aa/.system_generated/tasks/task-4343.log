@@ -1,0 +1,24 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s freezed on 173 inputs; lib/constants/backend_urls.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  0s freezed on 173 inputs: 1 no-op; lib/constants/constants.dart
+  3s freezed on 173 inputs: 21 skipped, 1 output, 1 no-op; spent 2s analyzing; lib/models/financial_model.dart
+  4s freezed on 173 inputs: 164 skipped, 2 output, 1 same, 6 no-op; spent 2s analyzing
+  0s json_serializable on 346 inputs; lib/constants/backend_urls.dart
+  33s json_serializable on 346 inputs: 13 skipped, 2 no-op; spent 28s analyzing, 4s resolving; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  47s json_serializable on 346 inputs: 25 skipped, 8 no-op; spent 38s analyzing, 6s resolving, 1s reading; lib/main.freezed.dart
+  48s json_serializable on 346 inputs: 95 skipped, 2 output, 1 same, 29 no-op; spent 39s analyzing, 6s resolving, 1s reading; lib/repositories/payroll_repository.freezed.dart
+  49s json_serializable on 346 inputs: 138 skipped, 2 output, 1 same, 44 no-op; spent 40s analyzing, 6s resolving, 1s reading; lib/view/home/screens/employee_home_screen.freezed.dart
+  50s json_serializable on 346 inputs: 163 skipped, 2 output, 1 same, 59 no-op; spent 41s analyzing, 6s resolving, 1s reading; lib/view/payment_claims/screens/super_admin_payment_claims_screen.freezed.dart
+  51s json_serializable on 346 inputs: 192 skipped, 2 output, 1 same, 76 no-op; spent 42s analyzing, 6s resolving, 1s reading; lib/view/queries/screens/queries_chat_screen.freezed.dart
+  53s json_serializable on 346 inputs: 253 skipped, 2 output, 1 same, 83 no-op; spent 44s analyzing, 7s resolving, 1s reading, 1s building; test/api_endpoints_test.freezed.dart
+  53s json_serializable on 346 inputs: 259 skipped, 2 output, 1 same, 84 no-op; spent 44s analyzing, 7s resolving, 1s reading, 1s building
+  0s source_gen:combining_builder on 346 inputs; lib/constants/backend_urls.dart
+  0s source_gen:combining_builder on 346 inputs: 343 skipped, 2 output, 1 same
+  Running the post build.
+  Writing the asset graph.
+  Built with build_runner in 62s; wrote 9 outputs.

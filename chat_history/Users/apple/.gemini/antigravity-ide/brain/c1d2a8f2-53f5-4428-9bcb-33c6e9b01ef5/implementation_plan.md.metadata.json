@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan for integrating gp_image_store and ont_power_store endpoints, including refactoring common image/video widgets.",
+  "updatedAt": "2026-06-17T07:20:47.430879Z",
+  "requestFeedback": true
+}

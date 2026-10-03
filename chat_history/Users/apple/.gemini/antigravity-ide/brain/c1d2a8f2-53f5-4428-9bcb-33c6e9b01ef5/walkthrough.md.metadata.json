@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "This walkthrough details the migration of the POP module into the main BSNL Survey Flutter application. It includes implementation details of the 5 previously stubbed screens, localization key additions, and model bug fixes.",
+  "updatedAt": "2026-06-16T06:54:31.034635Z"
+}

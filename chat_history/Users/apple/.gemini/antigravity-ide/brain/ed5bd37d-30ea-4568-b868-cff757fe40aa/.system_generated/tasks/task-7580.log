@@ -1,0 +1,111 @@
+Analyzing veremax_hrm_flutter...                                
+
+warning • The value of the field '_filteredConversations' isn't used • lib/features/employee_chat/screens/chat_list_screen.dart:20:28 • unused_field
+   info • Statements in an if should be enclosed in a block • lib/features/employee_chat/screens/chat_list_screen.dart:122:33 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/features/employee_chat/screens/chat_list_screen.dart:125:33 • curly_braces_in_flow_control_structures
+warning • The value of the local variable 'lastReadAt' isn't used • lib/features/employee_chat/screens/chat_screen.dart:230:11 • unused_local_variable
+warning • The value of the local variable 'isOnline' isn't used • lib/features/employee_chat/widgets/conversation_tile.dart:58:11 • unused_local_variable
+   info • The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/main.dart:1:8 • unnecessary_import
+   info • Statements in an if should be enclosed in a block • lib/models/leave_model.dart:49:37 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/models/leave_model.dart:50:35 • curly_braces_in_flow_control_structures
+warning • The declaration '_mapLeaveType' isn't referenced • lib/models/leave_model.dart:72:10 • unused_element
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:234:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:276:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:315:13 • unused_local_variable
+warning • The value of the local variable 'deviceInfo' isn't used • lib/providers/attendance_provider.dart:357:13 • unused_local_variable
+   info • Statements in an if should be enclosed in a block • lib/providers/holidays_provider.dart:33:9 • curly_braces_in_flow_control_structures
+warning • The exception variable 'e' isn't used, so the 'catch' clause can be removed • lib/repositories/attendance_repository.dart:207:30 • unused_catch_clause
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:34:9 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:35:9 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:67:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:68:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:101:7 • use_null_aware_elements
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/repositories/payment_claim_repository.dart:102:7 • use_null_aware_elements
+warning • The value of the field '_dio' isn't used • lib/repositories/payroll_repository.dart:10:13 • unused_field
+warning • Unused import: 'package:flutter/foundation.dart' • lib/repositories/permission_repository.dart:6:8 • unused_import
+warning • The exception variable 'e' isn't used, so the 'catch' clause can be removed • lib/repositories/permission_repository.dart:42:30 • unused_catch_clause
+   info • Empty catch block • lib/repositories/remote_work_repository.dart:35:23 • empty_catches
+warning • The value of the field '_dio' isn't used • lib/repositories/shared_repositories.dart:11:13 • unused_field
+warning • Unused import: 'package:flutter/foundation.dart' • lib/services/device/device_service.dart:4:8 • unused_import
+   info • Empty catch block • lib/services/device/device_service.dart:48:17 • empty_catches
+   info • Empty catch block • lib/services/device/device_service.dart:66:21 • empty_catches
+warning • The value of the local variable 'bgColor' isn't used • lib/services/route/app_router.dart:130:17 • unused_local_variable
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:307:52 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:308:51 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:311:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:315:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:328:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:332:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:336:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:340:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:351:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:355:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:359:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:363:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:376:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:380:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:395:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:399:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:403:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:416:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:420:38 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:433:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:442:30 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:447:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:451:34 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:463:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:469:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:473:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:477:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:487:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:491:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:495:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:506:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:510:22 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/services/route/app_router.dart:514:22 • unnecessary_underscores
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:196:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:209:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:211:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:213:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:226:29 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/force_change_password_screen.dart:228:29 • curly_braces_in_flow_control_structures
+   info • Unnecessary use of multiple underscores • lib/view/authentication/screens/self_registration_screen.dart:992:34 • unnecessary_underscores
+   info • Statements in an if should be enclosed in a block • lib/view/authentication/screens/self_registration_screen.dart:1184:27 • curly_braces_in_flow_control_structures
+warning • The value of the field '_fullAddress' isn't used • lib/view/home/screens/attendance_camera_screen.dart:32:10 • unused_field
+warning • Unused import: 'package:hrms/widgets/status_chip.dart' • lib/view/home/screens/employee_home_screen.dart:30:8 • unused_import
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:414:43 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/home/screens/employee_home_screen.dart:414:47 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/leave/screens/leave_requests_screen.dart:261:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/leave/screens/super_admin_leave_approval_screen.dart:256:45 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/permission/screens/permission_requests_screen.dart:262:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/permission/screens/super_admin_permission_screen.dart:254:45 • unnecessary_underscores
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/edit_finance_details_screen.dart:141:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/edit_finance_details_screen.dart:143:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/edit_finance_details_screen.dart:168:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/edit_finance_details_screen.dart:170:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/edit_personal_details_screen.dart:269:25 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/payroll_screen.dart:216:15 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/profile/screens/payroll_screen.dart:218:15 • curly_braces_in_flow_control_structures
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:557:63 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/profile_screen.dart:557:67 • unnecessary_underscores
+warning • A value for optional parameter 'subtitle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1200:10 • unused_element_parameter
+warning • A value for optional parameter 'isDestructive' isn't ever given • lib/view/profile/screens/profile_screen.dart:1203:10 • unused_element_parameter
+warning • A value for optional parameter 'isToggle' isn't ever given • lib/view/profile/screens/profile_screen.dart:1204:10 • unused_element_parameter
+warning • A value for optional parameter 'toggleValue' isn't ever given • lib/view/profile/screens/profile_screen.dart:1205:10 • unused_element_parameter
+warning • A value for optional parameter 'onToggleChanged' isn't ever given • lib/view/profile/screens/profile_screen.dart:1206:10 • unused_element_parameter
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/salary_log_screen.dart:55:31 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_employee_details_screen.dart:290:59 • unnecessary_underscores
+   info • Use the null-aware marker '?' rather than a null check via an 'if' • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:175:17 • use_null_aware_elements
+   info • Unnecessary use of multiple underscores • lib/view/profile/screens/super_admin_single_employee_detail_screen.dart:345:29 • unnecessary_underscores
+   info • The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/view/profile/widgets/profile_info_tile.dart:2:8 • unnecessary_import
+   info • Unnecessary use of multiple underscores • lib/view/queries/screens/queries_screen.dart:152:29 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/view/queries/screens/super_admin_queries_screen.dart:170:29 • unnecessary_underscores
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:456:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:458:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:460:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:466:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:468:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/view/queries/widgets/super_admin_query_reply_modal.dart:470:27 • curly_braces_in_flow_control_structures
+   info • Unnecessary use of multiple underscores • lib/view/remote_work/screens/remote_work_requests_screen.dart:152:45 • unnecessary_underscores
+
+107 issues found. (ran in 16.7s)

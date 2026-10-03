@@ -1,0 +1,8 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-21T12:48:07+05:30
+Prompt: Check if build_runner is done
+
+[2026-07-21T12:47:37+05:30] Still waiting. Remaining time: 30s
+[2026-07-21T12:47:47+05:30] Still waiting. Remaining time: 20s
+[2026-07-21T12:47:57+05:30] Still waiting. Remaining time: 10s
+[2026-07-21T12:48:07+05:30] Timer fired.

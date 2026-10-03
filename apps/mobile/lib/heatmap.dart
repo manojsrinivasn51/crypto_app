@@ -6,7 +6,9 @@ class HeatmapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Heatmap')),
+      appBar: AppBar(
+        title: const Text('Heatmap'),
+      ),
       body: const Center(
         child: Text('Heatmap is coming soon...'),
       ),

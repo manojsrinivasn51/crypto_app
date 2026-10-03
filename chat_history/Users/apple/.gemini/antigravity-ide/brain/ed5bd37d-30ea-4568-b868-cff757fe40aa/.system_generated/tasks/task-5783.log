@@ -1,0 +1,23 @@
+  Generating the build script.
+  Reading the asset graph.
+  Checking for updates.
+  Updating the asset graph.
+  Building, incremental build.
+  0s freezed on 172 inputs; lib/constants/backend_urls.dart
+  0s freezed on 172 inputs: 1 skipped; lib/constants/constants.dart
+W SDK language version 3.10.0 is newer than `analyzer` language version 3.9.0. Run `flutter packages upgrade`.
+  4s freezed on 172 inputs: 22 skipped, 1 output; spent 3s analyzing; lib/models/financial_model.dart
+  5s freezed on 172 inputs: 169 skipped, 1 output, 1 same, 1 no-op; spent 3s analyzing
+  0s json_serializable on 344 inputs; lib/constants/backend_urls.dart
+  31s json_serializable on 344 inputs: 14 skipped, 1 no-op; spent 25s analyzing, 5s resolving; lib/features/employee_chat/providers/chat_provider.freezed.dart
+  44s json_serializable on 344 inputs: 27 skipped, 6 no-op; spent 35s analyzing, 7s resolving; lib/main.freezed.dart
+  45s json_serializable on 344 inputs: 138 skipped, 1 output, 1 same, 15 no-op; spent 36s analyzing, 7s resolving; lib/services/route/app_router.freezed.dart
+  46s json_serializable on 344 inputs: 185 skipped, 1 output, 1 same, 26 no-op; spent 37s analyzing, 7s resolving; lib/view/leave/screens/super_admin_leave_approval_screen.freezed.dart
+  47s json_serializable on 344 inputs: 214 skipped, 1 output, 1 same, 35 no-op; spent 38s analyzing, 7s resolving; lib/view/profile/screens/personal_details.freezed.dart
+  50s json_serializable on 344 inputs: 295 skipped, 1 output, 1 same, 42 no-op; spent 41s analyzing, 7s resolving; test/hr_provider_approval_cache_test.freezed.dart
+  50s json_serializable on 344 inputs: 300 skipped, 1 output, 1 same, 42 no-op; spent 41s analyzing, 7s resolving
+  0s source_gen:combining_builder on 344 inputs; lib/constants/backend_urls.dart
+  1s source_gen:combining_builder on 344 inputs: 342 skipped, 1 output, 1 same
+  Running the post build.
+  Writing the asset graph.
+  Built with build_runner in 60s; wrote 6 outputs.
